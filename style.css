@@ -146,15 +146,7 @@ input:focus, textarea:focus, select:focus {
         background: white;
     }
 }
-/* Hide scrollbar but keep scrolling */
-.hide-scrollbar {
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE/Edge */
-}
 
-.hide-scrollbar::-webkit-scrollbar {
-  display: none; /* Chrome, Safari */
-}
 #contact-modal > div::-webkit-scrollbar {
     display: none;
 }
@@ -162,4 +154,5 @@ input:focus, textarea:focus, select:focus {
 #contact-modal > div {
     scrollbar-width: none;
 }
+
 
